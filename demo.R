@@ -75,7 +75,7 @@ print(paste(length(cointegratedPortfolioList), " Portfolio's are cointegrated", 
 # Plot the spreads of the cointegrated Portfolio's
 plotCointegratedSpreads(cointegratedPortfolioList)
 
-# Execute the mean reversion strategy on the AUDNZDCADJPN portfolio. We notice that we obtain a better sharpe ratio.
+# Execute the mean reversion strategy on the AUDNZDCADJPN portfolio.
 par(mfrow=c(1,1))
 plotSpread(cointegratedPortfolioList[[14]],TRUE)
 plotCurrencyPairsSeparately(cointegratedPortfolioList[[14]],begin,end)
