@@ -1,2 +1,2 @@
 # Pairs_Trading
-Implementation of a Multiple Pairs Trading Strategy
+Utilized daily data from 2008-2014 of the major currency pairs
